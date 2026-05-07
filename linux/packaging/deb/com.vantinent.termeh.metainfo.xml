@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.vantinent.termeh</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Termeh</name>
+  <summary>Termeh is a modern open-source SSH client for managing servers
+    and terminal sessions.</summary>
+  <description>
+    <p>A modern desktop SSH client built for managing servers and terminal sessions with
+      a clean and efficient experience. It provides a fast, lightweight, and distraction-free
+      environment for developers, system administrators, and power users.</p>
+
+    <p>Your privacy and security are a core part of Termeh’s design.
+      All data is stored securely on your local machine, and the application does not rely on
+      any services for syncing, analytics, or data processing.
+      Your server credentials and session data remain under your control.</p>
+
+    <p>Termeh is also fully open source, allowing anyone to inspect the codebase,
+      contribute improvements, and verify how the application works.
+      The project focuses on transparency, simplicity, and giving
+      users complete ownership over their workflow and data.</p>
+  </description>
+  <launchable type="desktop-id">termeh.desktop</launchable>
+  <url type="homepage">https://github.com/vantinent/termeh</url>
+  <url type="bugtracker">https://github.com/vantinent/termeh/issues</url>
+  <url type="vcs-browser">https://github.com/vantinent/termeh</url>
+  <developer_name>Vantinent</developer_name>
+</component>

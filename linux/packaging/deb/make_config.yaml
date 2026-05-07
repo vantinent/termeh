@@ -1,0 +1,29 @@
+display_name: Termeh
+package_name: termeh
+version: 1.1.0
+description: "Manage SSH connections and terminal sessions"
+maintainer:
+  name: "Foad Tahmasebi"
+  email: "foad@vantinent.com"
+priority: optional
+section: utils
+# Bundle size in KiB; required by flutter_app_packager's deb generator.
+installed_size: 56240
+# The binary name produced by flutter build linux
+executable_name: termeh
+icon: assets/icon/icon.svg
+metainfo: linux/packaging/deb/com.vantinent.termeh.metainfo.xml
+depends:
+  - libgtk-3-0
+  - libsecret-1-0
+desktop_file:
+  name: Termeh
+  generic_name: SSH Client
+  comment: Manage SSH connections and terminal sessions
+  startup_wm_class: com.vantinent.termeh
+  categories:
+    - Utility
+    - Network
+  keywords:
+    - SSH
+    - Terminal

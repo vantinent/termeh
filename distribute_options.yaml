@@ -1,0 +1,8 @@
+output: dist/
+publish_configs:
+  - name: release
+    platforms:
+      - name: linux
+        arch: x64
+        targets:
+          - name: deb

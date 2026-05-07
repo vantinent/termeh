@@ -1,0 +1,10 @@
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+linux/flutter/ephemeral/
+.idea/
+.metadata
+.git/
+.gitignore
+snap/
